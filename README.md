@@ -11,8 +11,7 @@ This mod hides the extra Windows-native titlebar buttons and lets Zen's remain.
 
 ## How It Works
 
-- Detects Zen's main browser windows and removes the `WS_SYSMENU` window style, preventing Windows from drawing its native titlebar buttons over Zen's.   
-  Also prevents Zen from restoring that style while the mod is active.
-- The fix involves removing the native Windows system menu from being used on Zen, normally accessible with `alt + space`
-- Only targets `zen.exe`
- 
+- Removes the `WS_SYSMENU` window style from Zen's main browser windows, preventing Windows from drawing its native titlebar buttons over Zen's.   
+- Prevents Zen from restoring that style while the mod is active.
+- Involves removing the native Windows system menu from being used on Zen, normally accessible with `alt + space`.
+- Only targets `zen.exe` for it's main window(s), external windows from Zen such as Library or Browser Console are not targetted.
